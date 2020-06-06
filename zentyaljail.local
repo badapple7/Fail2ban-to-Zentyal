@@ -1,0 +1,8 @@
+[zentyal-auth]
+enabled = true
+port = 8443
+bantime = 3600
+findtime = 600
+filter = zentyal-auth
+maxretry = 3
+logpath = /var/log/zentyal/access.log
